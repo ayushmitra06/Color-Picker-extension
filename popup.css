@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Borel&display=swap");
+body {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image:url(images/bg.avif);
+
+  color: #ffffff;
+
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 10;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-family: "Borel";
+}
+
+input {
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
